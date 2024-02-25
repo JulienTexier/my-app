@@ -1,0 +1,58 @@
+{
+  "cli": {
+    "version": ">= 4.1.2",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "dev:simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "dev"
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "dev": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "dev"
+      }
+    },
+    "test": {
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "test"
+      },
+      "channel": "test"
+    },
+    "stag": {
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "stag"
+      },
+      "channel": "stag"
+    },
+    "prod": {
+      "distribution": "store",
+      "autoIncrement": true,
+      "env": {
+        "APP_ENV": "prod"
+      },
+      "channel": "prod"
+    }
+  },
+  "submit": {
+    "prod": {
+      "android": {
+        "track": "internal"
+      },
+      "ios": {
+        "bundleIdentifier": "com.taito.template",
+        "appleTeamId": "EPATC4S9N2"
+      }
+    }
+  }
+}
