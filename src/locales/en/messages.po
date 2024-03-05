@@ -13,7 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/app/(tabs)/settings.tsx:157
+#: src/components/store-review/StoreReview.tsx:82
+msgid "An error occurred while requesting review"
+msgstr "An error occurred while requesting review"
+
+#: src/app/(tabs)/settings.tsx:167
 msgid "Appearance"
 msgstr "Appearance"
 
@@ -21,8 +25,8 @@ msgstr "Appearance"
 msgid "Are you sure you want to logout?"
 msgstr ""
 
-#: src/app/(tabs)/settings.tsx:76
-#: src/app/(tabs)/settings.tsx:163
+#: src/app/(tabs)/settings.tsx:81
+#: src/app/(tabs)/settings.tsx:173
 msgid "Automatic"
 msgstr "Automatic"
 
@@ -30,7 +34,7 @@ msgstr "Automatic"
 msgid "Back"
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:41
+#: src/app/(auth)/landing.tsx:42
 msgid "By Taito United"
 msgstr "By Taito United"
 
@@ -57,9 +61,13 @@ msgstr ""
 msgid "Confirm"
 msgstr "Confirm"
 
-#: src/app/(tabs)/settings.tsx:117
+#: src/app/(tabs)/settings.tsx:127
 msgid "Copied to clipboard"
 msgstr "Copied to clipboard"
+
+#: src/components/store-review/StoreReview.tsx:111
+msgid "Could be better"
+msgstr "Could be better"
 
 #: src/services/auth.tsx:102
 msgid "Could not connect to server"
@@ -69,13 +77,13 @@ msgstr ""
 msgid "Could not toggle permission. You can change the permission in the system settings."
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:74
+#: src/app/(auth)/landing.tsx:75
 #: src/app/(auth)/signup.tsx:55
 msgid "Create an account"
 msgstr "Create an account"
 
-#: src/app/(tabs)/settings.tsx:81
-#: src/app/(tabs)/settings.tsx:162
+#: src/app/(tabs)/settings.tsx:87
+#: src/app/(tabs)/settings.tsx:172
 msgid "Dark"
 msgstr "Dark"
 
@@ -103,16 +111,20 @@ msgstr ""
 msgid "Email required"
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:100
-#: src/app/(tabs)/settings.tsx:55
+#: src/app/(auth)/landing.tsx:101
+#: src/app/(tabs)/settings.tsx:58
 msgid "English"
 msgstr "English"
+
+#: src/components/store-review/StoreReview.tsx:95
+msgid "Enjoying the app?"
+msgstr "Enjoying the app?"
 
 #: src/app/(auth)/login.tsx:35
 msgid "Enter your credentials"
 msgstr "Enter your credentials"
 
-#: src/app/(tabs)/settings.tsx:102
+#: src/app/(tabs)/settings.tsx:111
 msgid "Environment"
 msgstr "Environment"
 
@@ -124,58 +136,77 @@ msgstr ""
 msgid "Failed to signup"
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:97
-#: src/app/(tabs)/settings.tsx:60
+#: src/components/store-review/ImprovementForm.tsx:65
+msgid "Feedback is required"
+msgstr "Feedback is required"
+
+#: src/components/store-review/ImprovementForm.tsx:32
+msgid "Feedback sent!"
+msgstr "Feedback sent!"
+
+#: src/app/(auth)/landing.tsx:98
+#: src/app/(tabs)/settings.tsx:64
 msgid "Finnish"
 msgstr "Finnish"
 
-#: src/app/(auth)/signup.tsx:105
+#: src/app/(auth)/signup.tsx:106
 msgid "First name"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:100
+#: src/app/(auth)/signup.tsx:101
 msgid "First name is required"
 msgstr ""
 
-#: src/app/(tabs)/_layout.tsx:31
+#: src/app/(tabs)/_layout.tsx:32
 #: src/app/(tabs)/home.tsx:10
 msgid "Home"
 msgstr ""
 
-#: src/app/(tabs)/settings.tsx:167
+#: src/components/store-review/ImprovementForm.tsx:54
+msgid "How can we improve?"
+msgstr "How can we improve?"
+
+#: src/app/(tabs)/settings.tsx:24
+msgid "I am sure"
+msgstr "I am sure"
+
+#: src/app/(tabs)/settings.tsx:177
 msgid "Info"
 msgstr "Info"
 
-#: src/app/(tabs)/settings.tsx:152
+#: src/app/(tabs)/settings.tsx:162
 msgid "Language"
 msgstr "Language"
 
-#: src/app/(auth)/signup.tsx:123
+#: src/app/(auth)/signup.tsx:125
 msgid "Last name"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:118
+#: src/app/(auth)/signup.tsx:120
 msgid "Last name is required"
 msgstr ""
 
-#: src/app/(tabs)/settings.tsx:86
-#: src/app/(tabs)/settings.tsx:160
+#: src/app/(tabs)/settings.tsx:93
+#: src/app/(tabs)/settings.tsx:170
 msgid "Light"
 msgstr "Light"
 
-#: src/app/(auth)/login.tsx:106
+#: src/app/(auth)/login.tsx:109
 msgid "Logging in..."
 msgstr ""
 
 #: src/app/(auth)/_layout.tsx:11
-#: src/app/(auth)/login.tsx:108
+#: src/app/(auth)/login.tsx:111
 msgid "Login"
 msgstr ""
 
-#: src/app/(tabs)/settings.tsx:24
-#: src/app/(tabs)/settings.tsx:35
+#: src/app/(tabs)/settings.tsx:37
 msgid "Logout"
 msgstr ""
+
+#: src/components/store-review/StoreReview.tsx:104
+msgid "Loving it"
+msgstr "Loving it"
 
 #: src/components/uikit/PickerSheet.tsx:254
 msgid "No results found."
@@ -190,27 +221,27 @@ msgstr ""
 msgid "Open settings"
 msgstr ""
 
-#: src/app/(auth)/login.tsx:83
-#: src/app/(auth)/signup.tsx:171
+#: src/app/(auth)/login.tsx:84
+#: src/app/(auth)/signup.tsx:175
 msgid "Password"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:218
+#: src/app/(auth)/signup.tsx:223
 msgid "Password again"
 msgstr ""
 
-#: src/app/(auth)/login.tsx:78
-#: src/app/(auth)/signup.tsx:165
-#: src/app/(auth)/signup.tsx:212
+#: src/app/(auth)/login.tsx:79
+#: src/app/(auth)/signup.tsx:169
+#: src/app/(auth)/signup.tsx:217
 msgid "Password is required"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:163
-#: src/app/(auth)/signup.tsx:210
+#: src/app/(auth)/signup.tsx:167
+#: src/app/(auth)/signup.tsx:215
 msgid "Password must be at least 8 characters"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:208
+#: src/app/(auth)/signup.tsx:213
 msgid "Passwords do not match"
 msgstr ""
 
@@ -218,11 +249,11 @@ msgstr ""
 msgid "phone app"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:145
+#: src/app/(auth)/signup.tsx:148
 msgid "Phone number"
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:136
+#: src/app/(auth)/signup.tsx:139
 msgid "Phone number is required"
 msgstr ""
 
@@ -230,39 +261,35 @@ msgstr ""
 msgid "Please try restarting the application."
 msgstr ""
 
-#: src/app/(auth)/signup.tsx:140
+#: src/app/(auth)/signup.tsx:143
 msgid "Preferred format: +358400123456"
 msgstr ""
 
-#: src/app/(tabs)/_layout.tsx:44
+#: src/app/(tabs)/_layout.tsx:45
 #: src/app/(tabs)/profile.tsx:9
 msgid "Profile"
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:33
-msgid "React Native Template"
-msgstr "React Native Template"
-
-#: src/app/(tabs)/_layout.tsx:37
+#: src/app/(tabs)/_layout.tsx:38
 #: src/app/(tabs)/search.tsx:9
 #: src/components/uikit/inputs/SearchInput.tsx:17
 msgid "Search"
 msgstr ""
 
-#: src/app/(tabs)/_layout.tsx:51
+#: src/app/(tabs)/_layout.tsx:52
 msgid "Settings"
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:55
+#: src/app/(auth)/landing.tsx:56
 msgid "Sign in"
 msgstr "Sign in"
 
-#: src/app/(auth)/signup.tsx:240
+#: src/app/(auth)/signup.tsx:246
 msgid "Signing up..."
 msgstr ""
 
 #: src/app/(auth)/_layout.tsx:12
-#: src/app/(auth)/signup.tsx:242
+#: src/app/(auth)/signup.tsx:248
 msgid "Signup"
 msgstr ""
 
@@ -272,9 +299,25 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: src/app/(auth)/landing.tsx:50
+#: src/components/store-review/StoreReview.tsx:83
+msgid "Sorry about the inconvenience"
+msgstr "Sorry about the inconvenience"
+
+#: src/app/(auth)/landing.tsx:51
 msgid "Start your journey"
 msgstr "Start your journey"
+
+#: src/components/store-review/ImprovementForm.tsx:92
+msgid "Submit feedback"
+msgstr "Submit feedback"
+
+#: src/app/(auth)/landing.tsx:33
+msgid "Taito Template"
+msgstr "Taito Template"
+
+#: src/components/store-review/ImprovementForm.tsx:33
+msgid "Thank you"
+msgstr "Thank you"
 
 #: src/components/uikit/PickerSheet.tsx:257
 msgid "Try changing your search term."
@@ -284,11 +327,11 @@ msgstr ""
 msgid "Unable to change permission"
 msgstr ""
 
-#: src/app/(tabs)/settings.tsx:111
+#: src/app/(tabs)/settings.tsx:121
 msgid "Update ID"
 msgstr "Update ID"
 
-#: src/app/(tabs)/settings.tsx:98
+#: src/app/(tabs)/settings.tsx:106
 msgid "Version"
 msgstr "Version"
 

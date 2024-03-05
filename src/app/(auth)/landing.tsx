@@ -16,7 +16,7 @@ export default function Landing() {
 
   return (
     <Wrapper>
-      <ImageBackground source={require('~assets/landing_background.jpg')}>
+      <ImageBackground source={require('~assets/landing.jpg')}>
         <TopSection
           style={{ paddingTop: Math.max(insets.top, theme.space.normal) }}
         >
@@ -26,21 +26,21 @@ export default function Landing() {
 
           <TopSectionBody>
             <Stack axis="y" spacing="medium">
-              <BlackText variant="title3" align="center" withLineHeight>
-                <Trans>Welcome to</Trans>
-              </BlackText>
-              <BlackText variant="title1" align="center">
-                <Trans>Taito Template</Trans>
-              </BlackText>
+              <WhiteText variant="title1" align="center" withLineHeight>
+                <Trans>Welcome</Trans>
+              </WhiteText>
+              <WhiteText variant="title2" align="center">
+                <Trans>to your personal finance favorite app</Trans>
+              </WhiteText>
 
-              <BlackText
+              <WhiteText
                 variant="subtitle"
                 align="center"
                 withLineHeight
                 style={{ marginLeft: 16 }}
               >
-                <Trans>By Taito United</Trans> 💚
-              </BlackText>
+                <Trans>By Julien Texier</Trans>
+              </WhiteText>
             </Stack>
           </TopSectionBody>
         </TopSection>
@@ -120,11 +120,6 @@ const ImageBackground = styled('ImageBackground', {
   justifyContent: 'flex-end',
   paddingHorizontal: '$xxsmall',
 });
-
-const BlackText = styled(Text, {
-  color: 'rgba(0, 0, 0, 0.8)',
-});
-
 const WhiteText = styled(Text, {
   color: '#fff',
 });

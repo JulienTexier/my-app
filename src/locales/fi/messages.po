@@ -13,7 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/app/(tabs)/settings.tsx:157
+#: src/components/store-review/StoreReview.tsx:82
+msgid "An error occurred while requesting review"
+msgstr ""
+
+#: src/app/(tabs)/settings.tsx:167
 msgid "Appearance"
 msgstr "Väriteema"
 
@@ -21,8 +25,8 @@ msgstr "Väriteema"
 msgid "Are you sure you want to logout?"
 msgstr "Oletko varma, että haluat kirjautua ulos?"
 
-#: src/app/(tabs)/settings.tsx:76
-#: src/app/(tabs)/settings.tsx:163
+#: src/app/(tabs)/settings.tsx:81
+#: src/app/(tabs)/settings.tsx:173
 msgid "Automatic"
 msgstr "Automaattinen"
 
@@ -30,7 +34,7 @@ msgstr "Automaattinen"
 msgid "Back"
 msgstr "Takaisin"
 
-#: src/app/(auth)/landing.tsx:41
+#: src/app/(auth)/landing.tsx:42
 msgid "By Taito United"
 msgstr "Taito Unitedilta"
 
@@ -57,9 +61,13 @@ msgstr "Sulje"
 msgid "Confirm"
 msgstr "Vahvista"
 
-#: src/app/(tabs)/settings.tsx:117
+#: src/app/(tabs)/settings.tsx:127
 msgid "Copied to clipboard"
 msgstr "Kopioitu leikepöydälle"
+
+#: src/components/store-review/StoreReview.tsx:111
+msgid "Could be better"
+msgstr ""
 
 #: src/services/auth.tsx:102
 msgid "Could not connect to server"
@@ -69,13 +77,13 @@ msgstr "Ei voitu yhdistää palvelimeen"
 msgid "Could not toggle permission. You can change the permission in the system settings."
 msgstr "Ei voitu muuttaa lupaa. Voit muuttaa lupaa järjestelmäasetuksista."
 
-#: src/app/(auth)/landing.tsx:74
+#: src/app/(auth)/landing.tsx:75
 #: src/app/(auth)/signup.tsx:55
 msgid "Create an account"
 msgstr "Luo uusi tili"
 
-#: src/app/(tabs)/settings.tsx:81
-#: src/app/(tabs)/settings.tsx:162
+#: src/app/(tabs)/settings.tsx:87
+#: src/app/(tabs)/settings.tsx:172
 msgid "Dark"
 msgstr "Tumma"
 
@@ -103,16 +111,20 @@ msgstr "Virheellinen sähköposti"
 msgid "Email required"
 msgstr "Sähköposti on pakollinen"
 
-#: src/app/(auth)/landing.tsx:100
-#: src/app/(tabs)/settings.tsx:55
+#: src/app/(auth)/landing.tsx:101
+#: src/app/(tabs)/settings.tsx:58
 msgid "English"
 msgstr "Englanti"
+
+#: src/components/store-review/StoreReview.tsx:95
+msgid "Enjoying the app?"
+msgstr ""
 
 #: src/app/(auth)/login.tsx:35
 msgid "Enter your credentials"
 msgstr "Syötä tunnuksesi"
 
-#: src/app/(tabs)/settings.tsx:102
+#: src/app/(tabs)/settings.tsx:111
 msgid "Environment"
 msgstr "Ympäristö"
 
@@ -124,58 +136,77 @@ msgstr "Sisäänkirjautuminen epäonnistui"
 msgid "Failed to signup"
 msgstr "Rekisteröityminen epäonnistui"
 
-#: src/app/(auth)/landing.tsx:97
-#: src/app/(tabs)/settings.tsx:60
+#: src/components/store-review/ImprovementForm.tsx:65
+msgid "Feedback is required"
+msgstr ""
+
+#: src/components/store-review/ImprovementForm.tsx:32
+msgid "Feedback sent!"
+msgstr ""
+
+#: src/app/(auth)/landing.tsx:98
+#: src/app/(tabs)/settings.tsx:64
 msgid "Finnish"
 msgstr "Suomi"
 
-#: src/app/(auth)/signup.tsx:105
+#: src/app/(auth)/signup.tsx:106
 msgid "First name"
 msgstr "Etunimi"
 
-#: src/app/(auth)/signup.tsx:100
+#: src/app/(auth)/signup.tsx:101
 msgid "First name is required"
 msgstr "Etunimi on pakollinen"
 
-#: src/app/(tabs)/_layout.tsx:31
+#: src/app/(tabs)/_layout.tsx:32
 #: src/app/(tabs)/home.tsx:10
 msgid "Home"
 msgstr "Koti"
 
-#: src/app/(tabs)/settings.tsx:167
+#: src/components/store-review/ImprovementForm.tsx:54
+msgid "How can we improve?"
+msgstr ""
+
+#: src/app/(tabs)/settings.tsx:24
+msgid "I am sure"
+msgstr ""
+
+#: src/app/(tabs)/settings.tsx:177
 msgid "Info"
 msgstr "Tiedot"
 
-#: src/app/(tabs)/settings.tsx:152
+#: src/app/(tabs)/settings.tsx:162
 msgid "Language"
 msgstr "Kieli"
 
-#: src/app/(auth)/signup.tsx:123
+#: src/app/(auth)/signup.tsx:125
 msgid "Last name"
 msgstr "Sukunimi"
 
-#: src/app/(auth)/signup.tsx:118
+#: src/app/(auth)/signup.tsx:120
 msgid "Last name is required"
 msgstr "Sukunimin on pakollinen"
 
-#: src/app/(tabs)/settings.tsx:86
-#: src/app/(tabs)/settings.tsx:160
+#: src/app/(tabs)/settings.tsx:93
+#: src/app/(tabs)/settings.tsx:170
 msgid "Light"
 msgstr "Vaalea"
 
-#: src/app/(auth)/login.tsx:106
+#: src/app/(auth)/login.tsx:109
 msgid "Logging in..."
 msgstr "Kirjaudutaan sisään..."
 
 #: src/app/(auth)/_layout.tsx:11
-#: src/app/(auth)/login.tsx:108
+#: src/app/(auth)/login.tsx:111
 msgid "Login"
 msgstr "Kirjaudu sisään"
 
-#: src/app/(tabs)/settings.tsx:24
-#: src/app/(tabs)/settings.tsx:35
+#: src/app/(tabs)/settings.tsx:37
 msgid "Logout"
 msgstr "Kirjaudu ulos"
+
+#: src/components/store-review/StoreReview.tsx:104
+msgid "Loving it"
+msgstr ""
 
 #: src/components/uikit/PickerSheet.tsx:254
 msgid "No results found."
@@ -190,27 +221,27 @@ msgstr "Avaa playground"
 msgid "Open settings"
 msgstr "Avaa asetukset"
 
-#: src/app/(auth)/login.tsx:83
-#: src/app/(auth)/signup.tsx:171
+#: src/app/(auth)/login.tsx:84
+#: src/app/(auth)/signup.tsx:175
 msgid "Password"
 msgstr "Salasana"
 
-#: src/app/(auth)/signup.tsx:218
+#: src/app/(auth)/signup.tsx:223
 msgid "Password again"
 msgstr "Salasana uudestaan"
 
-#: src/app/(auth)/login.tsx:78
-#: src/app/(auth)/signup.tsx:165
-#: src/app/(auth)/signup.tsx:212
+#: src/app/(auth)/login.tsx:79
+#: src/app/(auth)/signup.tsx:169
+#: src/app/(auth)/signup.tsx:217
 msgid "Password is required"
 msgstr "Salasana on pakollinen"
 
-#: src/app/(auth)/signup.tsx:163
-#: src/app/(auth)/signup.tsx:210
+#: src/app/(auth)/signup.tsx:167
+#: src/app/(auth)/signup.tsx:215
 msgid "Password must be at least 8 characters"
 msgstr "Salasanan on oltava vähintään 8 merkkiä"
 
-#: src/app/(auth)/signup.tsx:208
+#: src/app/(auth)/signup.tsx:213
 msgid "Passwords do not match"
 msgstr "Salasanat eivät täsmää"
 
@@ -218,11 +249,11 @@ msgstr "Salasanat eivät täsmää"
 msgid "phone app"
 msgstr "puhelin sovellusta"
 
-#: src/app/(auth)/signup.tsx:145
+#: src/app/(auth)/signup.tsx:148
 msgid "Phone number"
 msgstr "Puhelinnumero"
 
-#: src/app/(auth)/signup.tsx:136
+#: src/app/(auth)/signup.tsx:139
 msgid "Phone number is required"
 msgstr "Puhenumero on pakollinen"
 
@@ -230,39 +261,35 @@ msgstr "Puhenumero on pakollinen"
 msgid "Please try restarting the application."
 msgstr "Yritä käynnistää sovellus uudelleen."
 
-#: src/app/(auth)/signup.tsx:140
+#: src/app/(auth)/signup.tsx:143
 msgid "Preferred format: +358400123456"
 msgstr "Suositeltu muoto: +358400123456"
 
-#: src/app/(tabs)/_layout.tsx:44
+#: src/app/(tabs)/_layout.tsx:45
 #: src/app/(tabs)/profile.tsx:9
 msgid "Profile"
 msgstr "Profiili"
 
-#: src/app/(auth)/landing.tsx:33
-msgid "React Native Template"
-msgstr "React Native templateen"
-
-#: src/app/(tabs)/_layout.tsx:37
+#: src/app/(tabs)/_layout.tsx:38
 #: src/app/(tabs)/search.tsx:9
 #: src/components/uikit/inputs/SearchInput.tsx:17
 msgid "Search"
 msgstr "Hae"
 
-#: src/app/(tabs)/_layout.tsx:51
+#: src/app/(tabs)/_layout.tsx:52
 msgid "Settings"
 msgstr "Asetukset"
 
-#: src/app/(auth)/landing.tsx:55
+#: src/app/(auth)/landing.tsx:56
 msgid "Sign in"
 msgstr "Kirjaudu sisään"
 
-#: src/app/(auth)/signup.tsx:240
+#: src/app/(auth)/signup.tsx:246
 msgid "Signing up..."
 msgstr "Rekisteröidytään..."
 
 #: src/app/(auth)/_layout.tsx:12
-#: src/app/(auth)/signup.tsx:242
+#: src/app/(auth)/signup.tsx:248
 msgid "Signup"
 msgstr "Rekisteröidy"
 
@@ -272,9 +299,25 @@ msgstr "Rekisteröidy"
 msgid "Something went wrong"
 msgstr "Jotain meni pieleen"
 
-#: src/app/(auth)/landing.tsx:50
+#: src/components/store-review/StoreReview.tsx:83
+msgid "Sorry about the inconvenience"
+msgstr ""
+
+#: src/app/(auth)/landing.tsx:51
 msgid "Start your journey"
 msgstr "Aloita seikkailusi"
+
+#: src/components/store-review/ImprovementForm.tsx:92
+msgid "Submit feedback"
+msgstr ""
+
+#: src/app/(auth)/landing.tsx:33
+msgid "Taito Template"
+msgstr ""
+
+#: src/components/store-review/ImprovementForm.tsx:33
+msgid "Thank you"
+msgstr ""
 
 #: src/components/uikit/PickerSheet.tsx:257
 msgid "Try changing your search term."
@@ -284,11 +327,11 @@ msgstr "Kokeile muuttaa hakutermiä."
 msgid "Unable to change permission"
 msgstr "Lupaa ei voitu muuttaa"
 
-#: src/app/(tabs)/settings.tsx:111
+#: src/app/(tabs)/settings.tsx:121
 msgid "Update ID"
 msgstr "Päivitä tunnus"
 
-#: src/app/(tabs)/settings.tsx:98
+#: src/app/(tabs)/settings.tsx:106
 msgid "Version"
 msgstr "Versio"
 

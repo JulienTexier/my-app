@@ -103,6 +103,8 @@ const expoConfig: ExpoConfig = {
 // NOTE: we can't inline this to the plugin definition because the indendation would be wrong
 function getExtraProguardRules() {
   return `
+# skia
+-keep class com.shopify.reactnative.skia.** { *; }
 # react-native-fast-image
 -keep public class com.dylanvann.fastimage.* {*;}
 -keep public class com.dylanvann.fastimage.** {*;}
